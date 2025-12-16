@@ -1,0 +1,13 @@
+text = input("Enter a string: ")
+
+print("Original string:", text)
+print("First 5 characters:", text[0:5])
+print("Characters from index 2 to 6:", text[2:7])
+print("Last 5 characters:", text[-5:])
+print("String without first character:", text[1:])
+print("String without last character:", text[:-1])
+print("Every second character:", text[::2])
+print("Every third character:", text[::3])
+print("Reversed string:", text[::-1])
+print("First character:", text[0])
+print("Last character:", text[-1])
